@@ -1,4 +1,4 @@
-from abc import ABC , abstractmethod
+from abc import ABC, abstractmethod
 
 class Car(ABC):
 	@abstractmethod
@@ -10,13 +10,16 @@ class Honda(Car):
 	def sound(self):
 		return "phooo!"
 
+
 class Benz(Car):
 	def sound(self):
 		return "phaaa!"
 
+
 class Vw(Car):
 	def sound(self):
 		return "phee!"
+
 
 # def horn(car):
 # 	print(car.sound())
@@ -32,5 +35,3 @@ print(gti.sound())
 # horn(S_class)
 # horn(Vw)
 #
-
-
