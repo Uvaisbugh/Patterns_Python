@@ -10,6 +10,6 @@ def count_elements(arr):
 		print(f"{element}={count}")
 
 
-# Example usage
+
 arr = [1, 4, 5, 2, 1, 4]
 count_elements(arr)
